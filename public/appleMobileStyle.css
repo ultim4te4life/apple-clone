@@ -1,0 +1,156 @@
+@media only screen and (max-width: 500px) and (min-width: 0px) {
+  body {
+    background-position: scroll;
+
+    overflow-x: hidden;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+  .navbarItem {
+    display: none;
+  }
+  #hamburgerIcon {
+    display: flex;
+  }
+  #navbarContainer {
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    height: 44px;
+    position: fixed;
+    background-attachment: scroll;
+  }
+
+  #navbar {
+    width: 100%;
+    max-width: 1024px;
+    height: 44px;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+
+  .threeicons {
+    display: flex;
+    width: 100vh;
+    justify-content: flex-end;
+    justify-content: space-around;
+    padding-left: 200px;
+  }
+
+  #bannerContainer {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-top: 35px;
+    font-size: 14px;
+  }
+
+  #header-image {
+    height: 30px;
+  }
+
+  #videocontainertext {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+  }
+
+  #heroText {
+    font-size: 18px;
+    line-height: 30px;
+    align-items: flex-start;
+    height: 1px;
+  }
+
+  #products {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 0px;
+    left: 0;
+  }
+
+  #imageContainer1 {
+    text-align: center;
+    width: 100vw;
+    object-fit: cover;
+  }
+
+  #imageContainer2 {
+    text-align: center;
+    width: 100vw;
+    object-fit: cover;
+  }
+
+  #imageContainer3 {
+    text-align: center;
+    width: 100vw;
+    object-fit: cover;
+  }
+
+  .smalltextcontainer2 {
+    padding-top: 150px;
+  }
+
+  #imageContainer4 {
+    text-align: center;
+    width: 100vw;
+    object-fit: cover;
+  }
+  #imageContainer5 {
+    text-align: center;
+    width: 100vw;
+    object-fit: cover;
+  }
+  #imageContainer6 {
+    text-align: center;
+    width: 100vw;
+    object-fit: cover;
+  }
+
+  .textcontainerbottom {
+    width: 100%;
+  }
+
+  #footercontainer {
+    top: 0px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #menusectioncontainer {
+    display: none;
+  }
+
+  #menusectioncontainerphoneandtablet {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 16px;
+    width: 90%;
+    margin-top: 10px;
+    border-top: 2px solid grey;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .menitemsbottom {
+    border-top: 2px solid grey;
+    margin-top: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #footer1,
+  #footer2 {
+    margin-left: 10px;
+    width: 90%;
+  }
+}
